@@ -1,0 +1,27 @@
+{
+  "name": "soapapi",
+  "version": "1.0.0",
+  "description": "Soap Api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Susita",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.9",
+    "soap": "^1.1.9",
+    "soapapi": "file:"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "Soap_api_project"
+  }
+}
